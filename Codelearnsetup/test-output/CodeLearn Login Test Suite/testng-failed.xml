@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CodeLearn Login Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Tests(failed)">
+    <classes>
+      <class name="QuanlytaikhoanTestNG.LoginTestNG">
+        <methods>
+          <include name="loginWithShortPassword"/>
+          <include name="loginWithOnlyEmail"/>
+          <include name="loginWithSpacesOnly"/>
+          <include name="loginWithEmptyFields"/>
+          <include name="loginWithInvalidEmailFormat"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="loginWithOnlyPassword"/>
+          <include name="loginWithInvalidAccount"/>
+        </methods>
+      </class> <!-- QuanlytaikhoanTestNG.LoginTestNG -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [CodeLearn Login Test Suite] -->

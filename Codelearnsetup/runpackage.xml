@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="LoginTestSuite" verbose="1" parallel="false">
+    <test name="LoginTest">
+        <packages>
+            <!-- Thay thế bằng tên gói chứa các lớp kiểm thử của bạn -->
+            <package name="QuanlytaikhoanTestNG"/>
+        </packages>
+    </test>
+</suite>
+

@@ -1,0 +1,42 @@
+# ============================================
+#   GITIGNORE for Eclipse + Java + Maven project
+# ============================================
+
+# 👉 Eclipse workspace and metadata
+.metadata/
+.settings/
+.classpath
+.project
+
+# 👉 Build and output folders
+/bin/
+/target/
+/out/
+
+# 👉 Maven & Gradle
+.mvn/
+.gradle/
+build/
+
+# 👉 IDE specific files
+*.iml
+.idea/
+
+# 👉 Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# 👉 OS specific files
+Thumbs.db
+.DS_Store
+
+# 👉 Selenium & test output
+/test-output/
+/screenshots/
+/reports/
+/ExtentReport.html
+
+# 👉 Misc
+*.swp
+*.swo

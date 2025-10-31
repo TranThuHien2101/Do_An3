@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="LoginTestSuite" verbose="1" parallel="false">
+    <test name="LoginTest">
+        <packages>
+           <package name="QuanlytaikhoanTesNG" />
+           <package name="HocTapTestNG" /><!-- Tên package chứa tất cả các class test -->
+    </packages>
+    </test>
+
+</suite>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Full_Test_Suite]">
+  <test thread-count="5" name="AllTests(failed)">
+    <classes>
+      <class name="tests.TestRunner">
+        <methods>
+          <include name="sendReportByEmail"/>
+        </methods>
+      </class> <!-- tests.TestRunner -->
+      <class name="Luyentap.LuyentapTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="loginOnce"/>
+          <include name="testLuyentapSearch"/>
+          <include name="afterTest"/>
+          <include name="LuyentapSearch"/>
+        </methods>
+      </class> <!-- Luyentap.LuyentapTest -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [Full_Test_Suite] -->

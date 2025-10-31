@@ -1,0 +1,10 @@
+<suite name="Full_Test_Suite">
+  <test name="AllTests">
+    <classes>
+      <class name="tests.TestRunner"/>   
+       <class name="Luyentap.LuyentapTest"/>
+    </classes>
+    >
+  </test>
+</suite>
+    
